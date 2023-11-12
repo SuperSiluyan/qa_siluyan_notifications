@@ -1,8 +1,8 @@
 {
   "base": {
-    "project": "some project",
-    "environment": "some env",
-    "comment": "some comment",
+    "project": "DemoQA",
+    "environment": "Prod",
+    "comment": "Registration",
     "reportLink": "",
     "language": "en",
     "messenger": "telegram",
@@ -10,8 +10,8 @@
     "enableChart": true
   },
   "telegram": {
-    "token": "asdhsdgfjsdfgFgjhg4831)@",
-    "chat": "-1",
+    "token": "6644606978:AAE7ONZAgPJjjdy-_EZFO09OnlZs3Pftuok",
+    "chat": "-1001928250796",
     "replyTo": ""
   }
 }
