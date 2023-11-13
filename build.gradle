@@ -27,6 +27,7 @@ repositories {
 dependencies {
     testImplementation (
             "com.codeborne:selenide:6.16.0",
+            'com.github.javafaker:javafaker:1.0.2',
             "io.qameta.allure:allure-selenide:$allureVersion",
             "org.junit.jupiter:junit-jupiter:5.9.3")
 }
@@ -44,6 +45,12 @@ tasks.withType(Test) {
             events "started", "skipped", "failed", "standard_error", "standard_out"
             exceptionFormat "short"
         }
+    }
+}
+
+task smoke_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("Smoke")
     }
 }
 

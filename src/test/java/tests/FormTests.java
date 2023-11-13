@@ -5,9 +5,10 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
+import testBases.RemoteTestBase;
 
 
-public class FormTests extends TestBase {
+public class FormTests extends RemoteTestBase {
     RegistrationPage registrationPage = new RegistrationPage();
 
     @Test
